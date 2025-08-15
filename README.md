@@ -118,26 +118,27 @@ npm install
 3️⃣ Set up environment variables
 Create a .env file in each directory (backend, frontend, admin) and configure:
 
---MONGO_URI=your_mongodb_connection_string
---JWT_SECRET=your_secret_key
---RAZORPAY_KEY_ID=your_razorpay_key_id
---RAZORPAY_KEY_SECRET=your_razorpay_key_secret
---EMAIL_USER=your_gmail
---EMAIL_PASS=your_gmail_app_password
+-MONGO_URI=your_mongodb_connection_string
+-JWT_SECRET=your_secret_key
+-RAZORPAY_KEY_ID=your_razorpay_key_id
+-RAZORPAY_KEY_SECRET=your_razorpay_key_secret
+-EMAIL_USER=your_gmail
+-EMAIL_PASS=your_gmail_app_password
 
+---
 
 4️⃣ Run development servers
 
 Backend
 
---cd backend
---npm run server
+-cd backend
+-npm run server
 
 
 Frontend
 
---cd ../frontend
---npm run dev
+-cd ../frontend
+-npm run dev
 
 
 Admin
@@ -181,10 +182,10 @@ npm run dev
 
 Author: Md Kashif Mukhtar
 
---📧 Email: kashif.mukhtar950@gmail.com
+-📧 Email: kashif.mukhtar950@gmail.com
 
--- 🐙 GitHub: @kashiif373
+- 🐙 GitHub: @kashiif373
 
--- 💼 LinkedIn: https://www.linkedin.com/in/md-kashif-mukhtar-aa7331201/
+- 💼 LinkedIn: https://www.linkedin.com/in/md-kashif-mukhtar-aa7331201/
 
 

@@ -145,25 +145,25 @@ cd ../admin
 npm run dev
 
  ## 📸 Screenshots
-🏠 Home Page
+ ##🏠 Home Page
 
 <img width="1897" height="891" alt="image" src="https://github.com/user-attachments/assets/9fc7c4de-2696-4ec6-8849-e01dfb5cf747" />
 
 
-🍽 Explore Menu
+##🍽 Explore Menu
 <img width="1898" height="890" alt="image" src="https://github.com/user-attachments/assets/00359e4c-2ded-4bd7-8d57-6718ae22405b" />
 
 
-🔐 Login Page
+##🔐 Login Page
 <img width="1900" height="888" alt="image" src="https://github.com/user-attachments/assets/1bef4b3f-2606-4720-a6de-2cb896a23f35" />
 
 
-🛒 Add to Cart
+##🛒 Add to Cart
 
 <img width="1893" height="885" alt="image" src="https://github.com/user-attachments/assets/d6d742c9-0ed5-4317-ab6a-75b8be925586" />
 
 
-📦 Order Page
+##📦 Order Page
 
 <img width="1902" height="894" alt="image" src="https://github.com/user-attachments/assets/1839ce3e-15a6-4471-a3ee-e4f28f4d7f77" />
 
@@ -176,7 +176,11 @@ npm run dev
 ## 📬 Contact
 
 Author: Md Kashif Mukhtar
-📧 Email: kashif.mukhtar950@gmail.com
-🐙 GitHub: @kashiif373
-💼 LinkedIn: md-kashif-mukhtar
+
+## 📧 Email: kashif.mukhtar950@gmail.com
+
+## 🐙 GitHub: @kashiif373
+
+## 💼 LinkedIn: https://www.linkedin.com/in/md-kashif-mukhtar-aa7331201/
+
 

@@ -131,4 +131,4 @@ Screenshot 2025-08-11 000811
 Order Page
 Screenshot 2025-08-11 001034
 Admin Panel
-Screenshot 2025-08-11 001752 Screenshot 2025-08-11 001823 Screenshot 2025-08-11 002107
+Screenshott 2025-08-11 001752 Screenshot 2025-08-11 001823 Screenshot 2025-08-11 002107

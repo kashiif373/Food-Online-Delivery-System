@@ -80,9 +80,12 @@ Includes a powerful **Admin Panel** for managing restaurants, menus, users, and 
 ---
 
 ## 📂 Folder Structure
- backend/ → Express.js server code + Razorpay API integration
-frontend/ → React client application
-admin/ → React admin panel for managing orders & users
+- backend/ → Express.js server code + Razorpay API integration
+ 
+- frontend/ → React client application
+
+- admin/ → React admin panel for managing orders & users
+
 
 ---
 ## ⚙️ Installation & Setup
@@ -90,6 +93,7 @@ admin/ → React admin panel for managing orders & users
 1️⃣ **Clone the repository**
 
 git clone https://https://github.com/kashiif373/Food-Online-Delivery-System
+
 cd Online-Food-Delivery-System
 
 ---
@@ -118,12 +122,12 @@ npm install
 3️⃣ Set up environment variables
 Create a .env file in each directory (backend, frontend, admin) and configure:
 
--MONGO_URI=your_mongodb_connection_string
--JWT_SECRET=your_secret_key
--RAZORPAY_KEY_ID=your_razorpay_key_id
--RAZORPAY_KEY_SECRET=your_razorpay_key_secret
--EMAIL_USER=your_gmail
--EMAIL_PASS=your_gmail_app_password
+- MONGO_URI=your_mongodb_connection_string
+- JWT_SECRET=your_secret_key 
+- RAZORPAY_KEY_ID=your_razorpay_key_id
+- RAZORPAY_KEY_SECRET=your_razorpay_key_secret
+- EMAIL_USER=your_gmail
+- EMAIL_PASS=your_gmail_app_password
 
 ---
 
@@ -137,14 +141,14 @@ Backend
 
 Frontend
 
--cd ../frontend
--npm run dev
+- cd ../frontend
+- npm run dev
 
 
 Admin
 
-cd ../admin
-npm run dev
+- cd ../admin
+- npm run dev
 
 ---
 
@@ -182,7 +186,7 @@ npm run dev
 
 Author: Md Kashif Mukhtar
 
--📧 Email: kashif.mukhtar950@gmail.com
+- 📧 Email: kashif.mukhtar950@gmail.com
 
 - 🐙 GitHub: @kashiif373
 

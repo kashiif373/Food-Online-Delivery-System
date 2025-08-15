@@ -116,6 +116,7 @@ Admin
 
 cd ../admin
 npm install
+
 ---
 
 
@@ -147,8 +148,9 @@ Frontend
 
 Admin
 
-- cd ../admin
-- npm run dev
+ cd ../admin
+ 
+ npm run dev
 
 ---
 

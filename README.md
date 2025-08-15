@@ -1,21 +1,35 @@
 Online Food Delivery System
+
 A full-stack web application built using the MERN stack (MongoDB, Express.js, React.js, and Node.js) that allows users to browse restaurants, view menus, add food items to their cart, place orders, and make real-time payments. It also features an Admin Panel for managing restaurants, menus, users, and orders, with secure authentication, real-time order tracking, and password reset via email.
 
 🚀 Features
 
 👤 User Features
+
 User Registration & Login with JWT authentication
+
 Secure Password Hashing using bcrypt
+
 Reset Password via Email using Gmail SMTP
+
 Browse restaurants and menus
+
 Add items to Cart
+
 Place orders with Razorpay Payment Gateway
+
 Real-Time Order Tracking
+
 View Order History and Current Order Status
+
 🛠 Admin Features
+
 Admin Login (JWT Authentication)
+
 Manage Restaurants (Add, Update, Delete)
+
 Manage Menu Items
+
 Manage Orders and update their status in real-time
 Manage Users
 🔒 Security

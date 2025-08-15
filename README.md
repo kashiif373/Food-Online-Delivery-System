@@ -88,7 +88,7 @@ admin/ → React admin panel for managing orders & users
 ## ⚙️ Installation & Setup
 
 1️⃣ **Clone the repository**
-```bash
+
 git clone https://github.com/kashiif373/Online-Food-Delivery-System.git
 cd Online-Food-Delivery-System
 
@@ -144,7 +144,7 @@ Admin
 cd ../admin
 npm run dev
 
-📸 Screenshots
+ ## 📸 Screenshots
 🏠 Home Page
 
 🍽 Explore Menu
@@ -155,9 +155,9 @@ npm run dev
 
 📦 Order Page
 
-🛠 Admin Panel
+ ## 🛠 Admin Panel
 
-📬 Contact
+## 📬 Contact
 
 Author: Md Kashif Mukhtar
 📧 Email: kashif.mukhtar950@gmail.com

@@ -7,14 +7,15 @@ const razorpay = new Razorpay({
     key_secret: process.env.RAZORPAY_KEY_SECRET || 'dummy_secret'
 })
 
+
 // placing user order from frontend
 const placeOrder = async (req, res) => {
 
-    let URL = process.env.URL;
+   let URL = process.env.URL;
     console.log("Original URL from env:", URL);
 
     if (!URL) {
-        URL = "http://localhost:5173";
+        URL = "https://food-online-delivery-system-frontend.onrender.com";
         console.log("Fallback URL used:", URL);
     } else if (!URL.match(/^https?:\/\//)) {
         URL = "http://" + URL;

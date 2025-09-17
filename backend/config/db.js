@@ -1,23 +1,44 @@
-import mongoose from "mongoose";
+import express from "express";
+import cors from "cors";
+import { connectDB } from "./config/db.js";
+import foodRouter from "./routes/foodRoute.js";
+import userRouter from "./routes/userRoute.js";
+import cartRouter from "./routes/cartRoute.js";
+import orderRouter from "./routes/orderRoute.js";
+import 'dotenv/config.js';
 
-export const connectDB = async () => {
-  try {
-    const url = process.env.MONGO_URL;
-    if (!url) {
-      throw new Error("❌ MONGO_URL is not defined in environment variables");
+const app = express();
+const port = process.env.PORT || 8080;
+
+// ✅ Allow both localhost and deployed frontend
+const allowedOrigins = [
+  "http://localhost:5173",
+  "https://food-online-delivery-system-frontend.onrender.com"
+];
+
+app.use(cors({
+  origin: function (origin, callback) {
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error("Not allowed by CORS"));
     }
+  },
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true
+}));
 
-    console.log("⏳ Connecting to MongoDB...");
-    console.log("🌐 Using URL:", url.includes("localhost") ? "Local MongoDB" : "MongoDB Atlas");
+app.use(express.json());
 
-    await mongoose.connect(url, {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-    });
+// routes
+app.use("/api/food", foodRouter);
+app.use("/api/user", userRouter);
+app.use("/api/cart", cartRouter);
+app.use("/api/order", orderRouter);
 
-    console.log("✅ MongoDB Connected Successfully");
-  } catch (error) {
-    console.error("❌ MongoDB Connection Error:", error.message);
-    process.exit(1); // Stop the app if DB connection fails
-  }
-};
+// DB connect + server start
+connectDB().then(() => {
+  app.listen(port, () => {
+    console.log(`🚀 Server is running on port ${port}`);
+  });
+});

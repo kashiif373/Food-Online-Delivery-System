@@ -14,6 +14,7 @@ const port = process.env.PORT || 8080;
 // ✅ CORS configuration for frontend (localhost + deployed)
 const allowedOrigins = [
   "http://localhost:5173",
+  "https://food-online-delivery-system-frontend.onrender.com" 
   process.env.CLIENT_URL
 ];
 

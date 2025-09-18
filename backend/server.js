@@ -13,7 +13,7 @@ const port = process.env.PORT || 8080;
 
 // ✅ CORS configuration for frontend (localhost + deployed)
 const allowedOrigins = [
-  "http://localhost:5173" 
+  "http://localhost:5173", 
   process.env.CLIENT_URL
 ];
 

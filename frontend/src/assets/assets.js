@@ -80,7 +80,12 @@ export const assets = {
     profile_icon,
     logout_icon,
     bag_icon,
-    parcel_icon
+    parcel_icon,
+    food_1,
+    food_2,
+    food_3,
+    food_4,
+    food_5
 }
 
 export const menu_list = [
